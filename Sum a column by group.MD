@@ -13,3 +13,8 @@ or tapply:
 tapply(x$Frequency, x$Category, FUN=sum)
  First Second  Third 
     30      5     34
+    
+    
+
+// group by two vars
+aggregate(value ~ x1 + x2, data = dat, FUN = 'sum')
