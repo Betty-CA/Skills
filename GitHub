@@ -1,0 +1,20 @@
+#GitHub: How to clone GitHub repo ? How to push to Github? How to get files from GitHub ? 
+
+There are 3 steps to transfer your changes to GitHub:
+
+##a. You need to add files  —> git add .
+
+(“.” means all the files, no worries, it will add everything that was changed.)
+
+##b. You need to Commit you changes –> git commit  -m “Message you want to see near your commit”
+
+##c. Push your changes to the server –> git push
+
+
+
+# How to get those changes FROM GitHub ?
+
+##git checkout
+
+##git pull
+
