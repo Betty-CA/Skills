@@ -1,4 +1,8 @@
+
 #GitHub: How to clone GitHub repo ? How to push to Github? How to get files from GitHub ? 
+
+## clone
+git clone  https://githost.org/extuser/repo.git
 
 There are 3 steps to transfer your changes to GitHub:
 
