@@ -18,3 +18,6 @@ tapply(x$Frequency, x$Category, FUN=sum)
 
 // group by two vars
 aggregate(value ~ x1 + x2, data = dat, FUN = 'sum')
+
+## aggregate two functions
+aggregate(. ~ id1+id2,data = x,FUN=function(x) c(mn =mean(x), n=length(x) ) )
